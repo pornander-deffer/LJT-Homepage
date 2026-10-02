@@ -9,17 +9,17 @@ I am a PhD researcher in Computer Science at the **Hong Kong University of Scien
 
 I received my B.Eng. from **Shanghai Jiao Tong University (SJTU)** in June 2024, where I was also advised by Professor Junxian He.
 
+## Publications
+
+{% include ljt-publications.html %}
+
+[Publications page]({{ '/publications/' | relative_url }})
+
 ## Research Interests
 
 - LLM reasoning and reinforcement learning
 - Hallucination in vision-language models
 - LLM truthfulness and interpretability
-
-## Selected Publications
-
-{% include ljt-publications.html limit=3 %}
-
-[All publications]({{ '/publications/' | relative_url }})
 
 ## Background
 
