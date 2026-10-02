@@ -1,0 +1,10 @@
+{% assign publication_limit = include.limit | default: 100 %}
+<ul class="ljt-publications">
+{% for paper in site.data.publications limit: publication_limit %}
+  <li>
+    <p><strong>{{ paper.title | escape }}</strong><br>
+    {{ paper.authors | escape | replace: 'Junteng Liu', '<strong>Junteng Liu</strong>' }}<br>
+    <em>{{ paper.venue | escape }}, {{ paper.year }}</em></p>
+  </li>
+{% endfor %}
+</ul>
