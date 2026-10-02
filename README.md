@@ -4,8 +4,11 @@ Personal academic website based on [Academic Pages](https://github.com/academicp
 
 ## Editing
 
+Only existing template pages are used. Research and contact navigation links point to sections on the homepage, not separate pages.
+
 - `_config.yml`: identity, social profiles, Jekyll settings, and hosting URL.
-- `_pages/about.md`, `research.md`, `cv.md`, `contact.md`: personal pages.
+- `_pages/about.md`: homepage, including all publications, research interests, background, and contact links.
+- `_pages/cv.md`: curriculum vitae.
 - `_pages/publications.html`: publications page.
 - `_data/publications.yml`: six publications and complete author lists, reused on the homepage, publications page, and CV.
 - `_includes/ljt-background.html`: education, internships, and award, reused on the homepage and CV.
